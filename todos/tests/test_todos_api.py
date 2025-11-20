@@ -1,4 +1,3 @@
-# todos/tests/test_api.py
 import pytest
 
 from notes.models import Note

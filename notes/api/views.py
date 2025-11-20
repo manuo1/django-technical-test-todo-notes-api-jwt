@@ -6,8 +6,7 @@ from notes.models import Note
 
 class NoteViewSet(viewsets.ModelViewSet):
     """
-    REST ViewSet.
-
+    REST ViewSet for Notes.
     Endpoints:
     - GET    /api/notes/          -> list
     - POST   /api/notes/          -> create
