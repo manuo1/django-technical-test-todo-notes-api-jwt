@@ -7,4 +7,6 @@ urlpatterns = [
     path("api/auth/", include("config.auth_urls")),
     # Notes
     path("api/notes/", include("notes.api.urls")),
+    # Todos
+    path("api/todos/", include("todos.api.urls")),
 ]
